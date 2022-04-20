@@ -1,0 +1,95 @@
+:root {
+    --colorTextos: ##050505;
+}
+
+
+*,
+::before,
+
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    
+     background-image: url(./rosa\ pastel.png);
+     background-repeat: no-repeat;
+     background-position: right top;
+     background-color: rgb(230, 233, 233);
+     height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto';
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #fff;
+    padding: 20px 0;
+   border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px ;
+}
+
+input{
+    background: none;
+    color: #e97571;
+    font-size: 18px;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid var(--colorTextos);
+     
+    
+}
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #FF0800;
+    padding-top: 20px;
+}
+
+button{
+    font-family: 'roboto';
+  
+    background-color: #af5f5f;
+    
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    form{
+        width: 80%;
+    }
+}
